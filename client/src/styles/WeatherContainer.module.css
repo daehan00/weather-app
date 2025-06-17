@@ -1,0 +1,29 @@
+.weatherBox {
+    width: 80vw;
+    height: 70vh;
+    position: fixed;
+    background-color: rgba(82, 188, 249, 0.2); /* 배경 반투명 효과 */
+    display: flex;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.weatherLeft {
+    flex: 7 0 0;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.weatherRight {
+    flex: 3 0 0;
+    border-left: 2px solid rgb(253, 252, 252, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
+    min-width: 0;
+    overflow: hidden;
+}

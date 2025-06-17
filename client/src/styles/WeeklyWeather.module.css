@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+  left: 20%;
+  transform: translateX(-50%, -50%);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: calc((100% - 4rem) / 6);
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+}
+
+.day {
+  font-size: 1.2rem;
+  width: 2rem;
+  text-align: center;
+  color: #333;
+}
+
+.tempL {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2266aa;
+}
+
+.tempH {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #c43939;
+}
